@@ -164,5 +164,8 @@ A hipótese inicial de como solucionar esse problema é:
 
 ## Referencia Bibliografica
 
+- https://codeforces.com/problemset/problem/580/C - Link do Problema H definido na AP1 (Avaliação Prática 1).
+
 - <spam id="ref-root">DIESTEL, Reinhard. Graph Theory. 5. ed. Berlin: Springer Nature, 2017. 15 p. ISBN 978-3-662-53621-6. </spam>
+
 - <spam id="ref-tree">NICOLETTI, Maria do Carmo; HRUSCHKA JUNIOR, Estevam R. Fundamentos da teoria dos grafos para computação. 3. ed. Rio de Janeiro: LTC, 2017. 117 p. ISBN 978-85-216-3446-1. </spam>

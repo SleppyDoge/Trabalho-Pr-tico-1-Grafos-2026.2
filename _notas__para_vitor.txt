@@ -1,3 +1,0 @@
-As anotações dentro do Markdown devem ser feitas em português.
-Códigos e commits devem ser feitos em inglês. Commits devem seguir a formatação do Commitzen.
-Todos conceitos e definições deve possuir uma referência para livro E página.
