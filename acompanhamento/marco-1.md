@@ -2,15 +2,63 @@
 
 ## Enunciado
 
+O problema se passa em um parque onde Kefa, personagem principal da questão, mora perto. E para comemorar o seu primeiro grande salário, ele decide ir para um restaurante. Porém, ele tem muito medo de gatos.
+
+Com isso, o objetivo da questão é ajudar Kefa a contar o número de restaurantes onde será possível ir contanto que o caminho feito não ultrapasse o número de vértices consecutivos que possuem gatos (a entrada irá definir a quantidade).
+
 ## Entrada
+
+A primeira linha contém dois inteiros, _n e m_ _(2 ≤ n ≤ $10^5$, 1 ≤ m ≤ n)_ - o número de vértices da árvore e o número máximo de vértices consecutivos com gatos que ainda é aceitável para Kefa.
+
+A segunda linha contém n inteiros _a1, a2, ..., an_, onde cada $a_{i}$ Ou é igual a 0 (então o vértice i não tem gato), ou é igual a 1 (então o vértice i tem um gato).
+
+As próximas _n - 1_ linhas contêm as arestas da árvore no formato _"$x_{i}$ $y_{i}$"_ - sem aspas (1 ≤ $x_{i}$, $e_{i}$ ≤ n, $x_{i}$ ≠ $e_{i}$), onde $x_{i}$ e $y_{i}$ são os vértices da árvore, conectados por uma aresta.
+
+Caso-exemplo:
+
+````txt
+4 1
+1 1 0 0
+1 2
+1 3
+1 4
+````
+Essa entrada siginifica que:
+
+- Existem 4 vértices
+
+- Só é possível passar por 1 vértice consecutivo que possui gato.
+
+- 1º e 2º vértices possuem gatos / 3º e 4º não possuem gatos
+
+- Esta árvore possuem conexões (arestas) entre:
+    - 1º e 2º vértices
+    - 1º e 3º vértices
+    - 1º e 4º vértices
 
 ## Saída
 
+A saída deverá ser um único inteiro — o número de folhas distintas de uma árvore cujo caminho a partir da casa de Kefa contém no máximo _m_ vértices consecutivos com gatos.
+
 ## Restrições
+
+- Os caminhos devem ter, obrigatoriamente, como ponto de partida o vertíce 1, que é casa da Kefa.
+
+- Como já dito no enunciado, Kefa tem medo de gatos. Então, os caminhos para os restaurantes válidos ficam restringidos de acordo com o número de vértices consecutivos com gatos que podem ter.
 
 ## Vértices
 
+- O vértice 1 (raiz) representa a casa da Kefa, ponto de partida de todos os caminhos que deverá ser trilhado.
+
+- Os vértices-folhas representam os restaurantes, que devem ser os pontos de chegada finais de cada caminho.
+
+- O restante dos vértices, que não sejam raíz ou folhas, representam apenas referenciais para trilhar o caminho até os restaurantes (vértices-folhas).
+
+> É importante relembrar que nem todos os vértices que representam restaurantes são iguais. Alguns possuem gatos e outros não (a diferenciação é feita na segunda linha da entrada da questão).
+
 ## Arestas
+
+As arestas representam os caminhos/as conexões entre os vértices da árvore.
 
 ## Tipo de Grafo
 
