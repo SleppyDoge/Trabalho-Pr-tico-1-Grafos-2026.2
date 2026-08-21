@@ -23,6 +23,7 @@ Caso-exemplo:
 1 3
 1 4
 ````
+
 Essa entrada siginifica que:
 
 - Existem 4 vértices
@@ -32,9 +33,9 @@ Essa entrada siginifica que:
 - 1º e 2º vértices possuem gatos / 3º e 4º não possuem gatos
 
 - Esta árvore possuem conexões (arestas) entre:
-    - 1º e 2º vértices
-    - 1º e 3º vértices
-    - 1º e 4º vértices
+  - 1º e 2º vértices
+  - 1º e 3º vértices
+  - 1º e 4º vértices
 
 ## Saída
 
@@ -102,6 +103,7 @@ flowchart TD
 ````
 
 Para o segundo caso, analisemos o grafo gerado pela entrada:
+
 ````text
 7 1
 1 0 1 1 0 0 0
