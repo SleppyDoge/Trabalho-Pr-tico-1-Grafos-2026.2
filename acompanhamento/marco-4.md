@@ -304,6 +304,6 @@ A DFS se adapta naturalmente a essa situação, pois, durante a exploração de 
 - se o contador ultrapassar m, aquele caminho pode ser descartado;
 - se chegarmos a uma folha sem ultrapassar m, o restaurante é válido.
 
-Portanto, mesmo que a BFS forneça naturalmente níveis, distâncias e predecessores, essas informações não são necessárias para resolver o problema.
+Portanto, mesmo que a BFS forneça naturalmente níveis, distâncias e predecessores, essas informações não são necessárias para resolver o problema!
 
 Assim, a escolha da DFS é justificada por ela representar de forma mais direta a estrutura do problema: percorrer cada caminho da raiz até as folhas e controlar a quantidade de gatos consecutivos encontrada ao longo dele. O DFS torna a identificação de nós folha e a relação pai-filho extremamente intuitiva, pois o caminho percorrido garante que o nó pai já tenha sido visitado.
