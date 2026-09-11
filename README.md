@@ -287,6 +287,8 @@ As alterações principais feitas no algorítimo foram:
 
 ## Justificativas
 
+Para conseguir impedir a pesquisa a depender da quantidade de gatos consecutivos, pesquisar de forma de "pai-filho" para determinar a quantidade de gatos da raiz até um determinado vértice é algo valioso. Por conta disso a forma de busca em profundidade feita pelo **dfs** se torna extremamente valiosa, sendo por tanto o algoritimo usado.
+
 ## Complexidade
 
 Em sua execução, cada vértice é percorrida apenas uma vez, resultando em:
