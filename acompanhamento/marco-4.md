@@ -279,12 +279,9 @@ $$ \boxed{O(n)} $$
 
 | Característica | DFS | BFS |
 |---|---|---|
-| Estratégia | Aprofunda o caminho | Percorre por níveis |
+| Tipo de busca | Exploração por profundidade (nós-folhas/restaurantes) | Exploração por níveis |
+| Caminho de busca | 1, 2, 4, 5, 3, 6, 7 | 1, 2, 3, 4, 5, 6, 7 |
 | Estrutura | Pilha/recursão | Fila |
-| Ordem no exemplo | 1, 2, 4, 5, 3, 6, 7 | 1, 2, 3, 4, 5, 6, 7 |
-| Níveis | Não é seu foco principal | Exploração natural por níveis |
-| Distância mínima | Não garante diretamente | Garante em grafos não ponderados |
-| Predecessores | Sim | Sim |
 | Complexidade de tempo | O(n) | O(n) |
 | Complexidade de espaço | O(n) | O(n) |
 
